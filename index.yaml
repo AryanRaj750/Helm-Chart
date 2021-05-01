@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  hadoop-datanode:
+  - apiVersion: v1
+    appVersion: "1.2"
+    created: "2021-05-01T15:44:52.736983016Z"
+    description: configuring hdfs slave
+    digest: 51c18c5b842754403b6e63aa3fea2067a5a643d486a553b2d60009958fa699ce
+    name: hadoop-datanode
+    urls:
+    - https://github.com/AryanRaj750/Helm-Chart/releases/download/hadoop-datanode-1/hadoop-datanode-1.tgz
+    version: "1"
+  hadoop-namenode:
+  - apiVersion: v1
+    appVersion: "1.2"
+    created: "2021-05-01T15:44:52.970825741Z"
+    description: configuring hdfs master
+    digest: 0a1d752c693c5d8cc9edf8741f6ebb757e1ed3d533f0b7c1e99b345935e44897
+    name: hadoop-namenode
+    urls:
+    - https://github.com/AryanRaj750/Helm-Chart/releases/download/hadoop-namenode-1/hadoop-namenode-1.tgz
+    version: "1"
+generated: "2021-05-01T15:44:52.467252972Z"
