@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: namenode
+  name: namenode
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: namenode
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: namenode
+    spec:
+      containers:
+      - image: aryan750/hadoop-master:v2
+        name: namenode
+        resources: {}
+status: {}
